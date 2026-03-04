@@ -2,7 +2,7 @@
 import { CliEngine } from "./cli_engine/cliEngine";
 // import GreetCommand from "./commands/greetCommand";
 import AddCommand from "./commands/addCommand";
-// import SubtractCommand from "./commands/subtractCommand";
+ import SubtractCommand from "./commands/subtractCommand";
 // import MultiplyCommand from "./commands/multiplyCommand";
  import DivideCommand from "./commands/divideCommand";
 // import JokeCommand from "./commands/jokeCommand";
@@ -16,7 +16,7 @@ const mycli = new CliEngine();
 mycli.registerCommands([
 //   GreetCommand,
   AddCommand,
-//   SubtractCommand,
+  SubtractCommand,
 //   MultiplyCommand,
    DivideCommand,
 //   JokeCommand,
