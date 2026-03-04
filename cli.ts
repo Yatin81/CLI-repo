@@ -9,7 +9,7 @@ import AddCommand from "./commands/addCommand";
 import CountryCommand from "./commands/countryCommand";
 // import PokemonCommand from "./commands/pokemonCommand";
 // import MovieCommand from "./commands/movieCommand";
-// import GithubCommand from "./commands/githubCommand";
+import GithubCommand from "./commands/githubCommand";
 
 const mycli = new CliEngine();
 
@@ -23,7 +23,7 @@ mycli.registerCommands([
   CountryCommand,
 //   PokemonCommand,
 //   MovieCommand,
-//   GithubCommand
+  GithubCommand
 ]);
 
 mycli.run();
