@@ -9,7 +9,7 @@ const cliEngine_1 = require("./cli_engine/cliEngine");
 const addCommand_1 = __importDefault(require("./commands/addCommand"));
 // import SubtractCommand from "./commands/subtractCommand";
 // import MultiplyCommand from "./commands/multiplyCommand";
-// import DivideCommand from "./commands/divideCommand";
+const divideCommand_1 = __importDefault(require("./commands/divideCommand"));
 // import JokeCommand from "./commands/jokeCommand";
 const countryCommand_1 = __importDefault(require("./commands/countryCommand"));
 // import PokemonCommand from "./commands/pokemonCommand";
@@ -21,7 +21,7 @@ mycli.registerCommands([
     addCommand_1.default,
     //   SubtractCommand,
     //   MultiplyCommand,
-    //   DivideCommand,
+    divideCommand_1.default,
     //   JokeCommand,
     countryCommand_1.default,
     //   PokemonCommand,

@@ -4,7 +4,7 @@ import { CliEngine } from "./cli_engine/cliEngine";
 import AddCommand from "./commands/addCommand";
 // import SubtractCommand from "./commands/subtractCommand";
 // import MultiplyCommand from "./commands/multiplyCommand";
-// import DivideCommand from "./commands/divideCommand";
+ import DivideCommand from "./commands/divideCommand";
 // import JokeCommand from "./commands/jokeCommand";
 import CountryCommand from "./commands/countryCommand";
 // import PokemonCommand from "./commands/pokemonCommand";
@@ -18,7 +18,7 @@ mycli.registerCommands([
   AddCommand,
 //   SubtractCommand,
 //   MultiplyCommand,
-//   DivideCommand,
+   DivideCommand,
 //   JokeCommand,
   CountryCommand,
 //   PokemonCommand,
