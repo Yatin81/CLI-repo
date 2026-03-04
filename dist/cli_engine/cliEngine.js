@@ -19,7 +19,6 @@ class CliEngine {
         });
     }
     run() {
-        console.log(picocolors_1.default.bold(picocolors_1.default.magenta("\n apka mycli mai swagat hai \n")));
         this.program.parse();
     }
 }

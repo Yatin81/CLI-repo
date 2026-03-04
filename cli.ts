@@ -6,7 +6,7 @@ import AddCommand from "./commands/addCommand";
 // import MultiplyCommand from "./commands/multiplyCommand";
 // import DivideCommand from "./commands/divideCommand";
 // import JokeCommand from "./commands/jokeCommand";
-// import CountryCommand from "./commands/countryCommand";
+import CountryCommand from "./commands/countryCommand";
 // import PokemonCommand from "./commands/pokemonCommand";
 // import MovieCommand from "./commands/movieCommand";
 // import GithubCommand from "./commands/githubCommand";
@@ -20,7 +20,7 @@ mycli.registerCommands([
 //   MultiplyCommand,
 //   DivideCommand,
 //   JokeCommand,
-//   CountryCommand,
+  CountryCommand,
 //   PokemonCommand,
 //   MovieCommand,
 //   GithubCommand
