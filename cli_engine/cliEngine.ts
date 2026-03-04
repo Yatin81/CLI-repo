@@ -18,7 +18,6 @@ export class CliEngine {
     }
 
     run() {
-        console.log(pc.bold(pc.magenta("\n apka mycli mai swagat hai \n")));
         this.program.parse();
     }
 }

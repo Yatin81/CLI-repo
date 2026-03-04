@@ -1,5 +1,5 @@
 {
-  "name": "sesd-workshop-2",
+  "name": "mycli",
   "version": "1.0.0",
   "description": "",
   "main": "dist/cli.js",
