@@ -15,6 +15,7 @@ const countryCommand_1 = __importDefault(require("./commands/countryCommand"));
 const pokemonCommand_1 = __importDefault(require("./commands/pokemonCommand"));
 // import MovieCommand from "./commands/movieCommand";
 const githubCommand_1 = __importDefault(require("./commands/githubCommand"));
+const thoughtCommand_1 = __importDefault(require("./commands/thoughtCommand"));
 const mycli = new cliEngine_1.CliEngine();
 mycli.registerCommands([
     //   GreetCommand,
@@ -26,6 +27,7 @@ mycli.registerCommands([
     countryCommand_1.default,
     pokemonCommand_1.default,
     //   MovieCommand,
-    githubCommand_1.default
+    githubCommand_1.default,
+    thoughtCommand_1.default
 ]);
 mycli.run();
