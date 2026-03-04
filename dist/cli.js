@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const cliEngine_1 = require("./cli_engine/cliEngine");
-// import GreetCommand from "./commands/greetCommand";
+const greetCommand_1 = __importDefault(require("./commands/greetCommand"));
 const addCommand_1 = __importDefault(require("./commands/addCommand"));
 const subtractCommand_1 = __importDefault(require("./commands/subtractCommand"));
 const multiplyCommand_1 = __importDefault(require("./commands/multiplyCommand"));
@@ -18,15 +18,13 @@ const githubCommand_1 = __importDefault(require("./commands/githubCommand"));
 const thoughtCommand_1 = __importDefault(require("./commands/thoughtCommand"));
 const mycli = new cliEngine_1.CliEngine();
 mycli.registerCommands([
-    //   GreetCommand,
+    greetCommand_1.default,
     addCommand_1.default,
     subtractCommand_1.default,
     multiplyCommand_1.default,
     divideCommand_1.default,
-    //   JokeCommand,
     countryCommand_1.default,
     pokemonCommand_1.default,
-    //   MovieCommand,
     githubCommand_1.default,
     thoughtCommand_1.default
 ]);

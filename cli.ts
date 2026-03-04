@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { CliEngine } from "./cli_engine/cliEngine";
-// import GreetCommand from "./commands/greetCommand";
+ import GreetCommand from "./commands/greetCommand";
 import AddCommand from "./commands/addCommand";
 import SubtractCommand from "./commands/subtractCommand";
 import MultiplyCommand from "./commands/multiplyCommand";
@@ -15,15 +15,15 @@ import ThoughtCommand from "./commands/thoughtCommand";
 const mycli = new CliEngine();
 
 mycli.registerCommands([
-    //   GreetCommand,
+    GreetCommand,
     AddCommand,
     SubtractCommand,
     MultiplyCommand,
     DivideCommand,
-    //   JokeCommand,
+
     CountryCommand,
     PokemonCommand,
-    //   MovieCommand,
+ 
     GithubCommand,
     ThoughtCommand
 ]);
