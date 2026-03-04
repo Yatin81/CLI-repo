@@ -5,10 +5,8 @@ import AddCommand from "./commands/addCommand";
 import SubtractCommand from "./commands/subtractCommand";
 import MultiplyCommand from "./commands/multiplyCommand";
 import DivideCommand from "./commands/divideCommand";
-
 import CountryCommand from "./commands/countryCommand";
 import PokemonCommand from "./commands/pokemonCommand";
-
 import GithubCommand from "./commands/githubCommand";
 import ThoughtCommand from "./commands/thoughtCommand";
 import SpsCommand from "./commands/spsCommand";
@@ -21,10 +19,8 @@ mycli.registerCommands([
     SubtractCommand,
     MultiplyCommand,
     DivideCommand,
-
     CountryCommand,
     PokemonCommand,
-
     GithubCommand,
     ThoughtCommand,
     SpsCommand
