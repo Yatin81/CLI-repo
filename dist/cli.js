@@ -12,7 +12,7 @@ const multiplyCommand_1 = __importDefault(require("./commands/multiplyCommand"))
 const divideCommand_1 = __importDefault(require("./commands/divideCommand"));
 // import JokeCommand from "./commands/jokeCommand";
 const countryCommand_1 = __importDefault(require("./commands/countryCommand"));
-// import PokemonCommand from "./commands/pokemonCommand";
+const pokemonCommand_1 = __importDefault(require("./commands/pokemonCommand"));
 // import MovieCommand from "./commands/movieCommand";
 const githubCommand_1 = __importDefault(require("./commands/githubCommand"));
 const mycli = new cliEngine_1.CliEngine();
@@ -24,7 +24,7 @@ mycli.registerCommands([
     divideCommand_1.default,
     //   JokeCommand,
     countryCommand_1.default,
-    //   PokemonCommand,
+    pokemonCommand_1.default,
     //   MovieCommand,
     githubCommand_1.default
 ]);
